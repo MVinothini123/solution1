@@ -1,0 +1,23 @@
+use mec;
+show tables;
+create table mec.students(
+seialno int,
+name varchar(20),
+roll  int,
+department varchar(30),
+college varchar(50),
+place varchar(30));
+select * from mec.students;
+use sys;
+insert into mec.students value
+(1,"lekhana",10,"BME","MEC","rasipuram"),
+(2,"Anitha",20,"BME","MEC","rasipuram"),
+(3,"Vinothini",30,"BME","MCE","Salem"),
+(4,"Saranya",39,"BME","MCE","Salem"),
+(5,"Avanthika",40,"BME","MCE","Salem"),
+(6,"Sahi",45,"BME","MCE","Attur"),
+(7,"vani",30,"BME","MCE","Salem"),
+(8,"vini",39,"BME","MCE","pondi"),
+(9,"varshi",40,"BME","MCE","chennai"),
+(10,"preethi",45,"BME","MCE","Attur");
+select * from mec.students
